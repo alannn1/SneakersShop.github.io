@@ -1,0 +1,193 @@
+/*Parent*/
+.container-content-brand{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/*Slider*/
+.img-slider-brand{
+    height: 95vh;
+}
+
+/*Card*/
+.card-brand{
+    height: fit-content;
+    text-align: left;
+    background-color: transparent;
+    border: transparent;
+}
+.image-card-brand{
+    height: 50vh;
+    border-radius: 5px;
+}
+
+/*Tabs*/
+.tabs-brand{
+    display: flex;
+    margin-top: 10vh;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+.tabs-radio-brand{
+    display: none;
+}
+.tabs-label-brand{
+    margin-right: 15px;
+    height: fit-content;
+    cursor: pointer;
+}
+.tabs-radio-brand:checked+.tabs-label-brand{
+    filter:brightness(0.7);
+}
+.tabs-img-brand{
+    width: 42vh;
+    border-radius: 3px;
+}
+.tabs-content-brand{
+    width: fit-content;
+    margin-top: 10vh;
+    padding-left: 10px;
+    width: 100%;
+}
+/* Sandal */
+.contentSandal{
+    background-image: url("#");
+    background-position: center;
+    background-size: 400px 300px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-left: 20px;
+}
+.cardSandal{
+    height: fit-content;
+    text-align: left;
+    background-color: transparent;
+    border: transparent;
+}
+.cardSandal:hover{
+    border: 1px solid black;
+}
+.btnSandal{
+    width: 60%;
+    bottom: 5px;
+    left: 0px;
+}
+.imageSandal{
+    height: 40vh;
+    position: relative;
+    border-radius: 5px;
+}
+.filterSandal{
+    display: table-row-group;
+}
+
+/* Sepatu */
+.contentSepatu{
+    background-image: url("#");
+    background-position: center;
+    background-size: 400px 300px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-left: 20px;
+}
+.cardSepatu{
+    height: fit-content;
+    text-align: left;
+    border: transparent;
+    background-color: transparent;
+}
+.cardSepatu:hover{
+    border: 1px solid black;
+}
+.btnSepatu{
+    width: 60%;
+    bottom: 5px;
+    left: 0px;
+}
+.imageSepatu{
+    height: 40vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* Content Tas */
+.contentTas{
+    background-image: url("#");
+    background-position: center;
+    background-size: 400px 300px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-left: 20px;
+}
+.cardTas{
+    height: fit-content;
+    text-align: left;
+    border: transparent;
+    background-color: transparent;
+}
+.cardTas:hover{
+    border: 1px solid black;
+}
+.btnTas{
+    width: 60%;
+    bottom: 5px;
+    left: 0px;
+}
+.imageTas{
+    height: 40vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* Font Awesome Icon Home */
+.iconHome{
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 0px;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Aside Filter */
+aside{
+    float: left;
+    width: 17%;
+    height: fit-content;
+    margin-top: 40px;
+    padding: 10px;
+}
+.filterBrand{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Aside Filter Checkbox*/
+.checkbox input[type="checkbox"]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    border: 1px solid black;
+    box-sizing: 10px;
+    vertical-align: middle;
+}
+.checkbox label{
+    cursor: pointer;
+    padding-left: 5px;
+    vertical-align: top ;
+    font-size: 10.5px;
+    font-family: Noto Sans, sans-serif;
+    display: inline-flex;
+    vertical-align:text-top;
+    color: rgb(79, 79, 79);
+}
+.checkbox input[type="checkbox"]:checked{
+    border: 6px solid rgb(108, 108, 108);
+    appearance: none;
+    width: 5px;
+}

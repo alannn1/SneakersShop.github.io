@@ -1,0 +1,107 @@
+/* aside */
+.asidePayment{
+    float: left;
+    width: 60%;
+    margin-top: 20vh;
+}
+
+/* Carousel Slider Payment */
+.carouselPay{
+    width: fit-content;
+    float: right;
+    right: 20px;
+}
+.imagePayment{
+    width: 100vh;
+    position: relative;
+    border-radius: 10px;
+    float: right;
+}
+.thumbnail{
+    width: 10vh;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: relative;
+    left: 13vh;
+    display: flex;
+    flex-direction: row;
+    bottom: 10px;
+    cursor: pointer;
+}
+.activePay{
+    filter: brightness(0.8);
+}
+
+/* Content */
+.contentPaymentNb{
+    margin-top: 25vh;
+    width: 37%;
+    float: right;
+    font-family:Arial, Helvetica, sans-serif;
+    height: fit-content;
+}
+.Judul{
+    margin-bottom: 25vh;
+}
+.Size{
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+    right: 3.5vh;
+    font-weight: 500;
+}
+/* Button */
+.btnSize{
+    width: 14vh;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid rgb(196, 196, 196);
+    height: 9vh;
+}
+.btnSize:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+.activebtn{
+    border: 2px solid black;
+}
+
+/* Content Rekomend */
+.container-rekomend{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 170vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.container-slickslider{
+    width: 100%;
+}
+.image-rekomend{
+    width: 50vh;
+    border-radius: 4px;
+}
+.card{
+    width: fit-content;
+    height: 63vh;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.card:hover{
+    filter:brightness(0.9);
+}
+.text-card{
+    color: black;
+    position: relative;
+    padding: 8px;
+}
+.footer-payment{
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    top: 95rem;
+}
