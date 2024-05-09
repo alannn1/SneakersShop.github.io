@@ -18,6 +18,7 @@ const Sandal = () => {
         setSelectedBrand(event.target.value);
     };
     const sandal = selectedBrand === "all" ? dataSandal : dataSandal.filter(item=>item.brand.toLowerCase() === selectedBrand.toLowerCase());
+    
     const navigate = useNavigate();
     const handleClick = (page) => {
         navigate(page);
